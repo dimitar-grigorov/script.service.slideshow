@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.service.slideshow.on.startup"
+       name="Slideshow on Startup"
+       version="0.1"
+       provider-name="Dimitar Grigorov">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+	<summary lang="en">Starts slideshow on system startup.</summary>
+	<description lang="en">Starts slideshow on system startup.</description>
+  </extension>
+</addon>
