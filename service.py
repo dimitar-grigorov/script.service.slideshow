@@ -5,7 +5,7 @@ import subprocess
 # import xbmcgui
 
 # Path to script to be executed on Kodi/Service start
-SCRIPT_PATH = 'D:\empty.bat'
+SCRIPT_PATH = '/storage/restart_slide.sh'
 
 if __name__ == '__main__':
     xbmc.log("Slideshow Service Started", level=xbmc.LOGNOTICE)
